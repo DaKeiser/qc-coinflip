@@ -8,10 +8,11 @@ Steps to run
 ```sh
 git clone git@github.com:DaKeiser/qc-coinflip.git
 cd qc-coinflip
+pip3 install qiskit
 python3 flipper.py
 ```
 Contributors:
-Sai Rithwik M (IMT2018061)
-Saksham Agarwal (IMT2018065)
-Soham Joshi (IMT2018072)
 
+- Sai Rithwik M (IMT2018061)
+- Saksham Agarwal (IMT2018065)
+- Soham Joshi (IMT2018072)
