@@ -1,6 +1,8 @@
 # qc-coinflip
 A simple coin-flipping game to checking the winning probabilities on Quantum Computer and Classical Computer
 
+Please check the report for this specific piece of code in `Code_Report.pdf`
+
 Steps to run
 ```sh
 git clone git@github.com:DaKeiser/qc-coinflip.git
