@@ -10,6 +10,9 @@ cd qc-coinflip
 pip3 install qiskit
 python3 flipper.py
 ```
+
+[Google Colab link ](https://colab.research.google.com/drive/10aQ48n4NywLGvkhTpB6jMXI4Vhigl4ho?usp=sharing) to run it on IBMQ Computer
+
 Contributors:
 
 - Sai Rithwik M (IMT2018061)
