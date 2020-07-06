@@ -1,36 +1,8 @@
-'''
-This is a simple challenge introducing to the some of the 
-concepts related to gates in Quantum Circuits and explains about
-the concept of superposition
-
-You are playing a game with 2 computers 
-A classical one and a Quantum one
-The computer shows you heads initially
-It then performs an operation on it(Choosing heads or tails)
-Now you have to perform an operation on the coin(Choose heads or tails)
-The computer performs another operation on it(Choosing heads or tails)
-
-It then shows you the output
-If Heads is the output, you lose
-If Tails is the output you win
-
-These operations are performed on two computers,
-Quantum and Classical. Find your chances to win
-
-This code is inspired from the TED Talk
-https://www.ted.com/talks/shohini_ghose_a_beginner_s_guide_to_quantum_computing
-
-Codes which helped us
-https://github.com/MackEdweise/TEDCoinToss
-https://github.com/qiskit-community/qiskit-community-tutorials/blob/master/games/Quantum-Coin-Game.ipynb
-'''
-
 #!/usr/bin/python3
 
 from qiskit import *
 import matplotlib.pyplot as plt
 import random
-import csv
 
 simulator = Aer.get_backend('qasm_simulator')
 # Process in which this must happen
@@ -142,18 +114,18 @@ data.remove('')
 
 plt.figure()
 
-plt.subplot(2,1,1)
+plt.subplot(1,2,1)
 z1,o1 = quantum(data)
 quan = {"Heads":z1, "Tails":o1}
-plt.bar(list(quan.keys()), quan.values())
+plt.bar(list(quan.keys()), quan.values(), width=0.25, align='edge')
 plt.xlabel('Choice')
 plt.ylabel('Probability')
 plt.title('Probability of winning on Quantum Computer')
 
-plt.subplot(2,1,2)
+plt.subplot(1,2,2)
 z2,o2= classical(data)
 classic = {"Heads":z2, "Tails":o2}
-plt.bar(list(classic.keys()), classic.values())
+plt.bar(list(classic.keys()), classic.values(), width=0.25, align='edge')
 plt.xlabel('Choice')
 plt.ylabel('Probability')
 plt.title('Probability of winning on Classical Computer')
