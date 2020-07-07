@@ -8,7 +8,7 @@ Steps to run
 git clone git@github.com:DaKeiser/qc-coinflip.git
 cd qc-coinflip
 pip3 install qiskit
-python3 flipper.py
+python3 flip.py
 ```
 
 [Google Colab link ](https://colab.research.google.com/drive/10aQ48n4NywLGvkhTpB6jMXI4Vhigl4ho?usp=sharing) to run it on IBMQ Computer
