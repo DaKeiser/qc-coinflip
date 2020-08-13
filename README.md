@@ -17,4 +17,4 @@ Contributors:
 
 - Sai Rithwik M (IMT2018061)
 - [Saksham Agarwal](https://github.com/Dragonsa15) (IMT2018065)
-- Soham Joshi (IMT2018072)
+- [Soham Joshi](https://github.com/soham-joshi) (IMT2018072)
