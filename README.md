@@ -16,5 +16,5 @@ python3 flip.py
 Contributors:
 
 - Sai Rithwik M (IMT2018061)
-- Saksham Agarwal (IMT2018065)
+- [Saksham Agarwal](https://github.com/Dragonsa15) (IMT2018065)
 - Soham Joshi (IMT2018072)
